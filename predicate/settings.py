@@ -12,7 +12,7 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 
 import os
 import dj_database_url
-
+import environ
 
 root = environ.Path(__file__) - 3  # get root of the project
 env = environ.Env()
